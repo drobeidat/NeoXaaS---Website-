@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f9ff;
+}
+header {
+    background: #d1e6f9;
+    text-align: center;
+    padding: 2em 1em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #0a2c4c;
+    font-weight: bold;
+}
+h1 {
+    color: #0a2c4c;
+}
+.start {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #f7931e;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.actions {
+    text-align: center;
+    padding: 2em 1em;
+}
+.actions button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: 2px solid #0a2c4c;
+    background: #fff;
+    color: #0a2c4c;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+    background: #cfe5f3;
+    flex-wrap: wrap;
+}
+footer .links ul {
+    list-style: none;
+    padding: 0;
+}
+footer .links ul li {
+    margin: 0.5em 0;
+}
+footer input {
+    margin: 0.5em 0.25em;
+    padding: 0.25em;
+}
+footer button {
+    padding: 0.25em 0.5em;
+}
